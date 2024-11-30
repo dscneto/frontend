@@ -25,6 +25,7 @@ const Listagem: React.FC = () => {
       endereco: "Av. B, 456, Bairro Y, Cidade Z",
     },
   ];
+  
   return (
     <div className="max-w-4xl mx-auto mt-10 bg-white shadow-md rounded-md p-6">
     <div className = "image">

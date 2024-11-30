@@ -4,6 +4,7 @@ import './TelaInicial.css';
 
 //import logo from '../assets/logo.svg';
 
+
 const TelaInicial: React.FC = () => {
   const navigate = useNavigate();
 

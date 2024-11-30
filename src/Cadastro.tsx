@@ -42,7 +42,6 @@ const Cadastro = () => {
   return (
     <div>
     <div className = "image">
-      <img src="../public/logo.svg" alt="CT Cruz" onClick = {() => handleNavigate("/")} />
     </div>
 
       {etapa === 1 && (
