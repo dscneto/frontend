@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import TelaInicial from "./TelaInicial.tsx";
-import Cadastro from "./Cadastro.tsx";
-import Listagem from "./Listagem.tsx";
+import TelaInicial from "./pages/TelaInicial.tsx";
+import Cadastro from "./pages/Cadastro.tsx";
+import Listagem from "./pages/Listagem.tsx";
 
 const App: React.FC = () => {
   return (

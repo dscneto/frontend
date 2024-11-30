@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import './TelaInicial.css';
+import '../styles/TelaInicial.css';
 
 //import logo from '../assets/logo.svg';
 

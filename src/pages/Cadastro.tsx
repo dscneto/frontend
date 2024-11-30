@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Cadastro.css'
+import '../styles/Cadastro.css'
 
 const Cadastro = () => {
   const [etapa, setEtapa] = useState(1);
@@ -35,9 +35,7 @@ const Cadastro = () => {
     console.log(dados); // Aqui você envia os dados ao backend
   };
 
-  function handleNavigate(arg0: string): void {
-    throw new Error('Function not implemented.');
-  }
+//  function handleNavigate(arg0: string): void {throw new Error('Function not implemented.');}
 
   return (
     <div>
